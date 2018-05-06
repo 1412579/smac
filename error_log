@@ -1,0 +1,33 @@
+[13-Apr-2017 05:51:32 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\where() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 123
+[13-Apr-2017 08:39:15 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/kwkzvljihosting/public_html/app/Http/Controllers/NhomController.php on line 17
+[13-Apr-2017 08:39:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/kwkzvljihosting/public_html/app/Http/Controllers/XepHangController.php on line 12
+[13-Apr-2017 18:01:53 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[13-Apr-2017 18:01:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[13-Apr-2017 18:02:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[13-Apr-2017 18:02:07 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[13-Apr-2017 18:02:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[13-Apr-2017 18:02:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 363
+[15-Apr-2017 13:29:32 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 61
+[15-Apr-2017 13:29:33 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 61
+[15-Apr-2017 13:29:36 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 61
+[15-Apr-2017 13:29:37 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 61
+[15-Apr-2017 13:30:36 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 42
+[15-Apr-2017 13:30:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/kwkzvljihosting/public_html/storage/framework/views/f73e30f4321005fb0d916aa2952f38c1 on line 42
+[25-Apr-2017 09:17:39 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[25-Apr-2017 09:18:09 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[25-Apr-2017 09:18:38 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[25-Apr-2017 09:24:39 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[25-Apr-2017 09:24:56 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[25-Apr-2017 09:25:44 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[26-Apr-2017 14:29:15 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:30:14 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:30:33 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:31:39 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[26-Apr-2017 14:32:06 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[26-Apr-2017 14:32:13 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:33:49 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[26-Apr-2017 14:34:03 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:40:40 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:46:04 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
+[26-Apr-2017 14:46:42 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 200
+[26-Apr-2017 14:48:51 UTC] PHP Fatal error:  Call to undefined method Illuminate\Support\Facades\Request::input() in /home/kwkzvljihosting/public_html/app/Http/Controllers/WelcomeController.php on line 173
