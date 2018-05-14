@@ -24,22 +24,22 @@ class DatabaseSeeder extends Seeder {
             	"updated_at" => \Carbon\Carbon::now())
 			]);
 
-		// for ($i=1; $i <= 300; $i++) { 
-		// 	$pass = generateRandomPassword(15);
-		// 	$fp = @fopen('fileMK.txt', "a+");
-		// 	fwrite($fp, 'smac-'.$i.' - '.$pass."/n");
-		// 	DB::table('teams')->insert([
-		// 	array(
-		// 		'TenNhom' => 'smac-'.$i, 
-		// 		'TenDangNhap' => 'smac-'.$i, 
-		// 		'password' => Hash::make($pass),
-		// 		'KichHoat' => 0,
-		// 		'SoLuotTG' => 100,
-		// 		'Quyen' => 0,
-		// 		"created_at" =>  \Carbon\Carbon::now(),
-  //           	"updated_at" => \Carbon\Carbon::now())
-		// 	]);
-		// }
+		for ($i=1; $i <= 300; $i++) { 
+			$pass = generateRandomPassword(6);
+			$fp = @fopen('fileMK.txt', "a+");
+			fwrite($fp, 'cuocthihocthuatkhoay-'.$i.' - '.$pass."/n");
+			DB::table('teams')->insert([
+			array(
+				'TenNhom' => 'cuocthihocthuatkhoay-'.$i, 
+				'TenDangNhap' => 'cuocthihocthuatkhoay-'.$i, 
+				'password' => Hash::make($pass),
+				'KichHoat' => 0,
+				'SoLuotTG' => 100,
+				'Quyen' => 0,
+				"created_at" =>  \Carbon\Carbon::now(),
+            	"updated_at" => \Carbon\Carbon::now())
+			]);
+		}
 	}
 }
 

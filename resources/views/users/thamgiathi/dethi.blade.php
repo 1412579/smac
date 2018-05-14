@@ -13,7 +13,7 @@
             <br>
             <span class="timecountdown timeCount" id="timer">
                 <script type="text/javascript">
-                  timeDisplay('timer',0,0,20,3,5,'saveBaiThi');
+                  timeDisplay('timer',0,0,22,35,5,'saveBaiThi');
               </script>
 
             </span>

@@ -1,5 +1,5 @@
   <?php
-    $temp = $deBai = DB::table('ch_tns')->where('idDe',1)->orderBy(DB::raw('RAND()'))->get();
+    //$temp = $deBai = DB::table('ch_tns')->where('idDe',1)->orderBy(DB::raw('RAND()'))->get();
 
     //dd($temp);
   ?>

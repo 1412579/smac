@@ -137,7 +137,7 @@ class WelcomeController extends Controller {
 				$deBai = array();
 				for($i = 0;$i < count($count);$i++){
 					//$arrayNumDe[$i] = $count[$i]->idDe;
-					$temp = DB::table('ch_tns')->where('idDe',$count[$i]->idDe)->orderBy(DB::raw("RAND()"))->take(5)->get();
+					$temp = DB::table('ch_tns')->where('idDe',$count[$i]->idDe)->orderBy(DB::raw("RAND()"))->take(1)->get();
 					$deBai = array_merge($deBai,$temp);
 				}
 				shuffle($deBai);
