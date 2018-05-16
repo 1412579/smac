@@ -97,6 +97,7 @@ section:last-child {
 }
 .navbar .navbar-nav > li > a {
   color:#fff;
+  padding: 20px;
 }
 header {
 /*  margin: 130px 0 65px;*/
@@ -374,7 +375,7 @@ header {
 }
 /*- Footer -*/
 footer {
-  padding: 0;
+  padding: 0!important;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -384,7 +385,7 @@ footer {
   border-top: 1px solid #CECECE;
 }
 footer .footer-socials {
-  margin: 60px 0 20px;
+  margin: 20px 0 10px;
 }
 footer .footer-socials a {
   display: inline-block;
@@ -414,8 +415,8 @@ footer .footer-bottom {
 
 .navbar-brand>img {
   height: 100%;
-  padding: 15px;
   width: auto;
+  margin-top: 8px;
 }
 
 .navbar-inverse{
@@ -682,4 +683,19 @@ padding: 0;
 .db{
   font-size: 25px!important; 
   text-align: center;
+}
+
+.nav>li{
+  margin: 0 15px;
+}
+
+header .header-content .header-content-inner{
+  margin: 0!important;
+}
+
+.btn{
+  border-radius: 0!important;
+  margin-top: 400px; 
+  padding: 15px 40px;
+  font-size: 30px; 
 }

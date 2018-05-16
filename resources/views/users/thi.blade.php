@@ -15,7 +15,7 @@
       <link rel="shortcut icon" href="{{ url('public/smac.ico')}}">
       <meta name="csrf-token" content="{{ csrf_token() }}" />
   	<!-- Latest compiled and minified CSS -->
-  	<link href="http://smacmed.net/public/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  	<link href="https://smac-medvnu.com/public/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   	<link rel="stylesheet" href="{{ url('public/vendor/bootstrap/css/bootstrap.min.css')}}">
   	
   	<!-- jQuery library -->
@@ -96,7 +96,7 @@
      <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <a style="margin-top: 400px; padding: 25px 50px 25px 50px;font-size: 30px; " target="_blank" href="{{ route('thamgiathi') }}" id="thamgiathi" class="btn btn-primary " onclick="return confirm('Hãy chuẩn bị kỹ trước khi vào thi nhé, nếu đã sẵn sàng thì bắt đầu thôi!!!')">Vào thi</a>
+                <a target="_blank" href="{{ route('thamgiathi') }}" id="thamgiathi" class="btn btn-primary " onclick="return confirm('Hãy chuẩn bị kỹ trước khi vào thi nhé, nếu đã sẵn sàng thì bắt đầu thôi!!!')">Vào thi</a>
             </div>
         </div>
     </header>
@@ -394,7 +394,7 @@
       </div>
 
       <div class="footer-bottom"  title="Tang Liang from ITUS">
-        <i class="fa fa-copyright"></i> Copyright by <a href="https://www.facebook.com/itvmtri" target="_blank"> Tang Liang </a><br>
+        <a href="https://www.facebook.com/clbhocthuatsm/" target="_blank">CLB Học Thuật Khoa Y ĐHQG TP.HCM - SMAC</a><br>
       </div>
     </footer>
     <script src="{{ url('public/js/myScript.js') }}"></script>
