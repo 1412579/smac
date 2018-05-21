@@ -695,7 +695,23 @@ header .header-content .header-content-inner{
 
 .btn{
   border-radius: 0!important;
-  margin-top: 400px; 
+  margin-top: 20px; 
   padding: 15px 40px;
   font-size: 30px; 
+}
+
+.hidebox{
+  display: none;
+}
+
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus{
+  color: #333!important;
+}
+
+header{
+  margin-top: 60px;
+}
+
+header .header-content{
+  top: 80%!important;
 }

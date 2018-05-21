@@ -27,9 +27,14 @@
         <?php $i = 0; ?>
         @foreach($deBai as $item)
         <input type="hidden"  name="idDe{{ $i }}" value="{{ $item->idTN }}">
-          <?php $i++; ?>
+          <?php $i++; 
+          $hide = "";
+            if($i > 1){
+              $hide = "hidebox";
+            }
+          ?>
           
-          <div class="col-md-8 col-sm-12 col-xs-12 col-centered" style="border: 2px solid #DCDCDC; margin-bottom: 20px">
+          <div id="<?php echo "question-".$i; ?>" class="box-ques col-md-8 col-sm-12 col-xs-12 col-centered <?php echo $hide; ?>" style="border: 2px solid #DCDCDC; margin-bottom: 20px">
 
                   <div class="col-md-2 col-sm-3 col-xs-3" style="text-align: center; font-size: 30px">Câu <?php echo $i;?></div>
                   <div class="col-md-10 col-sm-9 col-xs-9" style="text-align: justify; margin: 10px 0px 10px 0px; border: 1px solid #DCDCDC" >
@@ -42,7 +47,7 @@
                           
                         <div class="col-md-10 col-sm-12 col-xs-12" style=" border-top: 1px solid #DCDCDC;border-bottom: 1px solid #DCDCDC">
                             <p>Chọn câu trả lời đúng:</p>
-                            <div class="col-md-10 col-sm-12 col-xs-12" style="word-wrap:break-word;">
+                            <div class="col-md-10 col-sm-12 col-xs-12 pickAns" style="word-wrap:break-word;">
                                 <div class="radio" >
                                   <label class=""><input type="radio" value="1" id="<?php echo "optradio".$i; ?>" name="<?php echo "optradio".$i; ?>">{!! $item->DapAn1 !!}</label>
                                 </div>
@@ -64,10 +69,14 @@
                 </div>   
           </div>
           @endforeach
-          
-         
+          <div id="erroralert" class="alert alert-danger hidebox col-md-8 col-sm-12 col-xs-12 col-centered" role="alert">
+          </div>
+          <div class="col-md-1 col-sm-1 col-xs-1 col-centered">
+              <input type="button" class="btn btn-primary btn-xls" id="nextQuestion" value="Câu tiếp theo"  >
+            </div>                   
+
            <div class="col-md-1 col-sm-1 col-xs-1 col-centered">
-              <input type="submit" class="btn btn-success btn-xls" id="saveBaiThi" value="Nộp bài"  >
+              <input type="submit" class="btn btn-success btn-xls hidebox" id="saveBaiThi" value="Nộp bài"  >
             </div>
 
     </div>

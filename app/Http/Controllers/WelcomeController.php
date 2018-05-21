@@ -88,7 +88,7 @@ class WelcomeController extends Controller {
 		$dapan = array();
 		$cauhoi = array();
 		$idDe = $request->input('idDe');;
-		$count = DB::table('ch_tns')->where('idDe',$idDe)->get();
+		$count = DB::table('des')->get();
 		for($i=0;$i<count($count);$i++){
 			$name = 'idDe'.$i;
 			$cauhoi['idTN'.$i] = $request->$name;
@@ -174,7 +174,7 @@ class WelcomeController extends Controller {
 	}
 	public function userImformation(Request $request){
 			$now = \Carbon\Carbon::now('Asia/Ho_Chi_Minh');
-		      	$after= \Carbon\Carbon::create(2017, 5, 5, 0);
+		      	$after= \Carbon\Carbon::create(2018, 05, 30, 0);
 		      	if($now->day >= $after->day || $now->month > $after->month){
 		      		return redirect()->route('homepage')->with('expiredImforUser','Ahihi');
 		      	}

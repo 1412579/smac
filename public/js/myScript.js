@@ -1,6 +1,7 @@
 $.ajaxSetup({
      headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}});
 
+     var index = 1;
 
 $(document).ready(function(){
     $('#form-submit').submit(function(){
@@ -37,8 +38,42 @@ $(document).ready(function(){
               event.preventDefault();
           }
       });
+      $('#nextQuestion').click(function(){
+          if(!$('#question-' + index + ' .pickAns .radio input[type="radio"]').is(':checked')){
+            $('#erroralert').text("Vui lòng chọn đáp án, hoặc 30s sau sẽ tự chuyển câu hỏi");
+            $('#erroralert').show();
+            return false;
+          }
+           if(!$('#question-' + index).hasClass('hide')){
+                nextQuestion();
+            }
+      });
 });
 
+function nextQuestion(){
+    if(!$('#question-' + index).hasClass('hide')){
+        $('#question-' + index).hide();
+        $('#erroralert').hide();
+        index++;
+        $('#question-' + index).show();
+        if(index == 45){
+            $('#saveBaiThi').show();
+            $('#nextQuestion').hide();
+        }
+    }
+}
+
+function nextQuestionNum(numindex){
+        $('#erroralert').hide();
+        $('#question-' + index).hide();
+        index++;
+        $('#question-' + numindex).show();
+        //console.log("index Func:" + index);
+        if(index == 45){
+            $('#saveBaiThi').show();
+            $('#nextQuestion').hide();
+        }
+}
 
 function xacnhanxoa(msg){
     if(window.confirm(msg)){

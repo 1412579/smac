@@ -52,13 +52,22 @@ function timeDisplay(txtTimeDislay, days, hours, minute, second, delay, btSave)
     }
 
     if (days >= 0) {
+        var totalSec = (minute*60 + second) % 30 == 0 ? (minute*60 + second) / 30 : 0;
         var hoursStr = ((hours < 10) ? '0' : '') + hours;
         var minuteStr = ((minute < 10) ? '0' : '') + minute;
         var secondStr = ((second < 10) ? '0' : '') + second;
-
+        if(totalSec > 0 && totalSec < 45){
+            //console.log(Math.abs(totalSec - index));
+            var num = 46 - totalSec;
+            //console.log("num: " + num);
+            //console.log("index: " + index);
+            if(num > index)
+                nextQuestionNum(num);
+        }
         //document.getElementById(txtTimeDislay).innerHTML = 'Còn '+days+' ngày '+hoursStr + ':' + minuteStr + ':' + secondStr; 
         document.getElementById(txtTimeDislay).innerHTML = '' + hoursStr + ':' + minuteStr + ':' + secondStr;
        _setTimeout = setTimeout('timeDisplay(\'' + txtTimeDislay + '\',' + days + ',' + hoursStr + ',' + minuteStr + ',' + secondStr + ',' + delay + ')', 1000);
+
     }
     else {
         document.getElementById(txtTimeDislay).innerHTML = 'Đã hết thời gian';
