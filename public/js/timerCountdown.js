@@ -6,7 +6,8 @@ $(document).ready(function() {
 	})
 });
 
-
+var cacheSec = 1350;
+var currentASec = 1350;
 var dayslimit = 0;
 var hourslimit = 0;
 var minutelimit = 0;
@@ -52,17 +53,22 @@ function timeDisplay(txtTimeDislay, days, hours, minute, second, delay, btSave)
     }
 
     if (days >= 0) {
-        var totalSec = (minute*60 + second) % 30 == 0 ? (minute*60 + second) / 30 : 0;
+        var totalSec = minute*60 + second;
         var hoursStr = ((hours < 10) ? '0' : '') + hours;
         var minuteStr = ((minute < 10) ? '0' : '') + minute;
         var secondStr = ((second < 10) ? '0' : '') + second;
-        if(totalSec > 0 && totalSec < 45){
+        currentASec = totalSec;
+        $('#eachtime').text(30 - (cacheSec - totalSec));
+        if(cacheSec - totalSec == 30){
             //console.log(Math.abs(totalSec - index));
-            var num = 46 - totalSec;
+            //var num = 46 - totalSec;
             //console.log("num: " + num);
             //console.log("index: " + index);
-            if(num > index)
-                nextQuestionNum(num);
+            // if(num > index)
+            //     nextQuestionNum(num);
+            if(index == 45)
+                document.getElementById(paramSave).click();
+            nextQuestion();
         }
         //document.getElementById(txtTimeDislay).innerHTML = 'Còn '+days+' ngày '+hoursStr + ':' + minuteStr + ':' + secondStr; 
         document.getElementById(txtTimeDislay).innerHTML = '' + hoursStr + ':' + minuteStr + ':' + secondStr;

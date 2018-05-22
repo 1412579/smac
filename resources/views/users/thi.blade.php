@@ -390,13 +390,14 @@
 <footer class="footer">
 
       <div class="footer-socials" title="Tang Liang from ITUS">
-        <a  target="_blank" href="https://www.facebook.com/itvmtri"><i class="fa fa-facebook" style="color: #3b5998;"></i></a>
+        <a  target="_blank" href="https://www.facebook.com/clbhocthuatsm"><i class="fa fa-facebook" style="color: #3b5998;"></i></a>
       </div>
 
       <div class="footer-bottom"  title="Tang Liang from ITUS">
-        <a href="https://www.facebook.com/clbhocthuatsm/" target="_blank">CLB Học Thuật Khoa Y ĐHQG TP.HCM - SMAC</a><br>
+        <a href="https://www.facebook.com/clbhocthuatsm" target="_blank">CLB Học Thuật Khoa Y ĐHQG TP.HCM - SMAC</a><br>
       </div>
     </footer>
+    <script src="{{ url('public/js/HackTimer.min.js') }}"></script>
     <script src="{{ url('public/js/myScript.js') }}"></script>
     <script src="{{ url('public/js/creative.min.js') }}"></script>
       {{ changePass() }}

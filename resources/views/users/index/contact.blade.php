@@ -18,15 +18,47 @@
                         Hoặc liên hệ qua Fanpage SMAC
                         </div>
                         <hr />
-                        <h4> Ban tổ chức vòng thi Online</h4>
+                        <h4> Ban tổ chức vòng 1</h4>
                         <div>
-                            1. Võ Thị Trâm Anh - davitchianh@gmail.com
+                            1. Nguyễn Huỳnh Thanh Tuấn 
+                            <br>
+                            Email: tuannguyenhuynhthanh@gmail.com
+                            <br>
+                            Số điện thoại: 0962 024 951
                             <br>
                             <br>
-                            2.Nguyễn Cô Diêm - codiemnguyen2302@gmail.com
+                            2.Nguyễn Cô Diêm
                             <br>
+                            Email: codiemnguyen2302@gmail.com
                             <br>
-                            Sđt khẩn: 01699299038 (Gặp Trâm Anh)
+                            Số điện thoại: 0933 064 402
+                        </div>
+                        <hr />
+                        <h4> Ban tổ chức vòng 2</h4>
+                        <div>
+                        Nguyễn Huy Hoàng
+                        <br>
+                        Email: nguyenhuyhoang82914@gmail.com
+                        <br>
+                        Số điện thoại: 0120 472 5070
+                        </div>
+                        <hr />
+                        <h4> Ban tổ chức vòng 3</h4>
+                        <div>
+                        Trần Xuân Nhiên
+                        <br>
+                        Email: txnhien170298@gmail.com
+                        <br>
+                        Số điện thoại: 0163 407 7722
+                        </div>
+                        <hr />
+                        <h4> Ban tổ chức vòng 4</h4>
+                        <div>
+                        Phạm Minh Tân
+                        <br>
+                        Email: minhtanpmt1710@gmail.com
+                        <br>
+                        Số điện thoại: 0169 725 6413
                         </div>
                     </div>
                 </div>

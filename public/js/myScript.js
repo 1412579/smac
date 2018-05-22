@@ -1,8 +1,7 @@
 $.ajaxSetup({
      headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}});
 
-     var index = 1;
-
+var index = 1;
 $(document).ready(function(){
     $('#form-submit').submit(function(){
         window.onbeforeunload = null;
@@ -52,6 +51,7 @@ $(document).ready(function(){
 
 function nextQuestion(){
     if(!$('#question-' + index).hasClass('hide')){
+        cacheSec = currentASec;
         $('#question-' + index).hide();
         $('#erroralert').hide();
         index++;

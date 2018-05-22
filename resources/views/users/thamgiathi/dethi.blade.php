@@ -9,12 +9,19 @@
     <div class="container">
         <div class="col-md-2" data-offset-top="205" data-spy="affix" style="position: fixed; right: -10px; top:50%;">
         <input type="hidden"  name="tgcl" value="">
-            <span class="timer">Thời gian còn lại: </span>
+            <span class="timer">Tổng thời gian: </span>
             <br>
             <span class="timecountdown timeCount" id="timer">
                 <script type="text/javascript">
-                  timeDisplay('timer',0,0,22,35,5,'saveBaiThi');
+                  timeDisplay('timer',0,0,22,30,5,'saveBaiThi');
               </script>
+
+            </span>
+            <br>
+            <br>
+            <span class="timer">Thời gian qua câu tiếp theo: </span>
+            <br>
+            <span class="timecountdown timeCount" id="eachtime">
 
             </span>
             <br>
