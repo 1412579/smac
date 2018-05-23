@@ -119,7 +119,27 @@ class WelcomeController extends Controller {
 	           	"updated_at" => \Carbon\Carbon::now('Asia/Ho_Chi_Minh'),
 				]);
 			}
-		return redirect()->route('homepage');
+
+			$ans = DB::table('hoanthanh_tns')->select('idTN','DapAnLC')->where('idNhom',Auth::user()->id)->where('idDe',$idDe)->where('LanThi',$Lan + 1)->orderBy('idTN','ASC')->get();
+			$ques = DB::table('ch_tns')->select('idTN','DapAnDung')->orderBy('idTN','ASC')->get();
+			$countTrue = 0;
+			$indexOfAns = 0;
+			
+			for($i=0 ; $i<count($ques) ; $i++){
+				if($ans[$indexOfAns]->idTN == $ques[$i]->idTN){
+					if($ans[$indexOfAns]->DapAnLC == $ques[$i]->DapAnDung)
+						$countTrue++;
+					$indexOfAns++;
+					if($indexOfAns == count($ans))
+						break;
+				}
+			}
+			$timeleft = intval(($request->tgconlai)/100)." phút ".(intval($request->tgconlai)%100)." giây.";
+			$result = [
+				'numTrue' => $countTrue,
+				'timeLeft' => $timeleft
+			];
+		return redirect()->route('homepage')->with('displayResult',$result);;
 
 	}
 

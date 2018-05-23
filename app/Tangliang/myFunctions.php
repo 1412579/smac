@@ -215,6 +215,23 @@
 
 	}
 
+	function displayResult()
+	{
+	    if (Session::has('displayResult'))
+	    {
+		  $rs = Session::get('displayResult');
+	       echo '<script type="text/javascript">swal({
+	          title: "Kết quả thi",
+	          text: "Số câu đúng: '.$rs["numTrue"].' và thời gian còn lại: '.$rs["timeLeft"].'",
+	          type: "success",
+	          confirmButtonColor: "#15f215",
+	          confirmButtonText: "Trở về",
+	          closeOnConfirm: false,
+	        });</script>';
+	    }
+
+	}
+
 	function generateRandomPassword ($length) {
 		// $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		$characters = '0123456789';

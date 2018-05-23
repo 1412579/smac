@@ -5,12 +5,12 @@
 
 
 	 
-<img class="img-responsive" src="{{ asset('public/images/info_1.png')}}" alt="">
-<img class="img-responsive" src="{{ asset('public/images/info_2.png')}}" alt="">
-<img class="img-responsive" src="{{ asset('public/images/info_3.png')}}" alt="">
-<img class="img-responsive" src="{{ asset('public/images/info_4.png')}}" alt="">
-<img class="img-responsive" src="{{ asset('public/images/info_5.png')}}" alt="">
-<img class="img-responsive" src="{{ asset('public/images/info_6.png')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide1.jpg')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide2.png')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide3.png')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide4.png')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide5.png')}}" alt="">
+<img class="img-responsive" src="{{ asset('public/images/Slide6.png')}}" alt="">
 	
 
 	    
