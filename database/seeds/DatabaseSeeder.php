@@ -24,31 +24,14 @@ class DatabaseSeeder extends Seeder {
         //     	"updated_at" => \Carbon\Carbon::now())
 		// 	]);
 
-		// for ($i=1; $i <= 300; $i++) { 
-		// 	$pass = generateRandomPassword(6);
-		// 	$fp = @fopen('fileMK.txt', "a+");
-		// 	fwrite($fp, 'cuocthihocthuatkhoay-'.$i.' - '.$pass."/n");
-		// 	DB::table('teams')->insert([
-		// 	array(
-		// 		'TenNhom' => 'cuocthihocthuatkhoay-'.$i, 
-		// 		'TenDangNhap' => 'cuocthihocthuatkhoay-'.$i, 
-		// 		'password' => Hash::make($pass),
-		// 		'KichHoat' => 0,
-		// 		'SoLuotTG' => 100,
-		// 		'Quyen' => 0,
-		// 		"created_at" =>  \Carbon\Carbon::now(),
-        //     	"updated_at" => \Carbon\Carbon::now())
-		// 	]);
-		// }
-
-		for ($i=1; $i <= 50; $i++) { 
+		for ($i=1; $i <= 300; $i++) { 
 			$pass = generateRandomPassword(6);
-			$fp = @fopen('fileTest.txt', "a+");
-			fwrite($fp, 'test-'.$i.' - '.$pass."/n");
+			$fp = @fopen('DataUser-ChoMayEm-SMAC.txt', "a+");
+			fwrite($fp, 'SMAC-'.$i.','.$pass."/n");
 			DB::table('teams')->insert([
 			array(
-				'TenNhom' => 'test-'.$i, 
-				'TenDangNhap' => 'test-'.$i, 
+				'TenNhom' => 'SMAC-'.$i, 
+				'TenDangNhap' => 'SMAC-'.$i, 
 				'password' => Hash::make($pass),
 				'KichHoat' => 0,
 				'SoLuotTG' => 100,
@@ -57,6 +40,23 @@ class DatabaseSeeder extends Seeder {
             	"updated_at" => \Carbon\Carbon::now())
 			]);
 		}
+
+		// for ($i=1; $i <= 50; $i++) { 
+		// 	$pass = generateRandomPassword(6);
+		// 	$fp = @fopen('fileTest.txt', "a+");
+		// 	fwrite($fp, 'test-'.$i.' - '.$pass."/n");
+		// 	DB::table('teams')->insert([
+		// 	array(
+		// 		'TenNhom' => 'test-'.$i, 
+		// 		'TenDangNhap' => 'test-'.$i, 
+		// 		'password' => Hash::make($pass),
+		// 		'KichHoat' => 0,
+		// 		'SoLuotTG' => 100,
+		// 		'Quyen' => 0,
+		// 		"created_at" =>  \Carbon\Carbon::now(),
+        //     	"updated_at" => \Carbon\Carbon::now())
+		// 	]);
+		// }
 	}
 }
 

@@ -56,7 +56,7 @@ function nextQuestion(){
         $('#erroralert').hide();
         index++;
         $('#question-' + index).show();
-        if(index == 45){
+        if(index == 50){
             $('#saveBaiThi').show();
             $('#nextQuestion').hide();
         }
@@ -69,7 +69,7 @@ function nextQuestionNum(numindex){
         index++;
         $('#question-' + numindex).show();
         //console.log("index Func:" + index);
-        if(index == 45){
+        if(index == 50){
             $('#saveBaiThi').show();
             $('#nextQuestion').hide();
         }

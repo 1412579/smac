@@ -6,8 +6,8 @@ $(document).ready(function() {
 	})
 });
 
-var cacheSec = 1350;
-var currentASec = 1350;
+var cacheSec = 1500;
+var currentASec = 1500;
 var dayslimit = 0;
 var hourslimit = 0;
 var minutelimit = 0;
@@ -66,7 +66,7 @@ function timeDisplay(txtTimeDislay, days, hours, minute, second, delay, btSave)
             //console.log("index: " + index);
             // if(num > index)
             //     nextQuestionNum(num);
-            if(index == 45)
+            if(index == 50)
                 document.getElementById(paramSave).click();
             nextQuestion();
         }

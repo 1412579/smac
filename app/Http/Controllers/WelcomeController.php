@@ -194,7 +194,7 @@ class WelcomeController extends Controller {
 	}
 	public function userImformation(Request $request){
 			$now = \Carbon\Carbon::now('Asia/Ho_Chi_Minh');
-		      	$after= \Carbon\Carbon::create(2018, 05, 30, 0);
+		      	$after= \Carbon\Carbon::create(2019, 06, 12, 0);
 		      	if($now->day >= $after->day || $now->month > $after->month){
 		      		return redirect()->route('homepage')->with('expiredImforUser','Ahihi');
 		      	}

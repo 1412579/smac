@@ -234,7 +234,7 @@
 
 	function generateRandomPassword ($length) {
 		// $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-		$characters = '0123456789';
+		$characters = '123456789';
 	    $charactersLength = strlen($characters);
 	    $randomString = '';
 	    for ($i = 0; $i < $length; $i++) {
