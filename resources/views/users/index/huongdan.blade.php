@@ -5,7 +5,7 @@
 
 <div class="container-fluid">
 <div class="col-md-6">
-	@for($i=1;$i<=12;$i++)	 
+	@for($i=1;$i<=11;$i++)	 
 		<img class="img-responsive" src="{{ asset('public/img/thongtin/'.'Slide'.$i.'.PNG')}}" alt="">
 	@endfor
 </div>

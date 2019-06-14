@@ -3,6 +3,7 @@ $.ajaxSetup({
 
 var index = 1;
 $(document).ready(function(){
+    preventDuplicateTab();
     $('#form-submit').submit(function(){
         window.onbeforeunload = null;
         var timing = $("#timer").text().replace(/:/g,'');
@@ -82,4 +83,19 @@ function xacnhanxoa(msg){
     return false;
 }
 
+function preventDuplicateTab() {
+    if (sessionStorage.createTS) { 
+      // Chrome at least has a blank window.name and we can use this
+      // signal this is a duplicated tab.
+      console.log("Existing sessionStorage "+sessionStorage.createTS+" w.name="+window.name);
+      if (!window.name) {
+        window.name = "*ukn*";
+        sessionStorage.createTS = Date.now(); // treat as new
+        window.location = "/"; // force to  signon screen
+      }
+    } else {
+      sessionStorage.createTS = Date.now();
+      console.log("Create sessionStorage "+sessionStorage.createTS+"w.name="+window.name);
+    }
+  }
 

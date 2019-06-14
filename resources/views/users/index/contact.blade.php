@@ -20,45 +20,67 @@
                         <hr />
                         <h4> Ban tổ chức vòng 1</h4>
                         <div>
-                            1. Nguyễn Huỳnh Thanh Tuấn 
+                            1. Nguyễn Tuấn Hoàng Duy
                             <br>
-                            Email: tuannguyenhuynhthanh@gmail.com
+                            Email: nthduy.smac@gmail.com 
                             <br>
-                            Số điện thoại: 0962 024 951
+                            Số điện thoại: 0902 020 394
                             <br>
                             <br>
-                            2.Nguyễn Cô Diêm
+                            2. Nguyễn Huỳnh Thanh Tuấn 
                             <br>
-                            Email: codiemnguyen2302@gmail.com
+                            Email: nhttuan.smac@gmail.com 
                             <br>
-                            Số điện thoại: 0933 064 402
+                            Số điện thoại: 0962 024 951 
                         </div>
                         <hr />
                         <h4> Ban tổ chức vòng 2</h4>
                         <div>
-                        Nguyễn Huy Hoàng
+                        1. Nguyễn Anh Hào
                         <br>
-                        Email: nguyenhuyhoang82914@gmail.com
+                        Email: nahao.smac@gmail.com 
                         <br>
-                        Số điện thoại: 0120 472 5070
+                        Số điện thoại: 0909 530 275
+                        <br>
+                        <br>
+                        2. Nguyễn Huy Hoàng
+                        <br>
+Email: nhhoang.smac@gmail.com 
+                        <br>
+Số điện thoại: 0704 725 070
                         </div>
                         <hr />
                         <h4> Ban tổ chức vòng 3</h4>
                         <div>
-                        Trần Xuân Nhiên
+                        1. Nguyễn Đặng Tường
                         <br>
-                        Email: txnhien170298@gmail.com
+                        Email: ndtuong.smac@gmail.com 
                         <br>
-                        Số điện thoại: 0163 407 7722
+                        Số điện thoại: 0835 867 059
+                            <br>
+                            <br>
+                        2 .Trần Xuân Nhiên
+                        <br>
+                        Email: txnhien.smac@gmail.com 
+                        <br>
+                        Số điện thoại: 0334 077 722
                         </div>
                         <hr />
                         <h4> Ban tổ chức vòng 4</h4>
                         <div>
-                        Phạm Minh Tân
+                        
+                        1. Lý Nhật Anh
                         <br>
-                        Email: minhtanpmt1710@gmail.com
+Email: lnanh.smac@gmail.com 
                         <br>
-                        Số điện thoại: 0169 725 6413
+Số điện thoại: 0837 715 912
+<br>
+<br>
+2. Phạm Minh Tân
+<br>
+Email: pmtan.smac@gmail.com 
+<br>
+Số điện thoại: 0399 533 300
                         </div>
                     </div>
                 </div>
