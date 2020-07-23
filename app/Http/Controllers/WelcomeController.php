@@ -189,12 +189,10 @@ class WelcomeController extends Controller {
 				return redirect()->route('homepage')->with('displayAlertNotEnoughLT','Ahihi');
 			else return redirect()->route('homepage')->with('message','Ahihi');
 		}
-		
-		
 	}
 	public function userImformation(Request $request){
 			$now = \Carbon\Carbon::now('Asia/Ho_Chi_Minh');
-		      	$after= \Carbon\Carbon::create(2019, 06, 15, 0);
+				  $after= \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2020-09-24 23:59:59', 'Asia/Ho_Chi_Minh');
 		      	if($now->day >= $after->day || $now->month > $after->month){
 		      		return redirect()->route('homepage')->with('expiredImforUser','Ahihi');
 		      	}

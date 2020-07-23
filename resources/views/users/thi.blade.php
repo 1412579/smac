@@ -411,8 +411,8 @@
       
       <?php
       	$now = \Carbon\Carbon::now('Asia/Ho_Chi_Minh');
-      	$before = \Carbon\Carbon::create(2019, 6, 11 , 0);
-      	 $after= \Carbon\Carbon::create(2019, 6, 16, 0);
+      	$before = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2020-09-22 23:59:59', 'Asia/Ho_Chi_Minh');
+      	 $after= \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2020-09-24 23:59:59', 'Asia/Ho_Chi_Minh');
       	 ?>
       	@if(($before->month - $now->month) == 0)
 		@if($before->day - $now->day > 0)
